@@ -1,14 +1,14 @@
 {
   "nsURL":
   {
-    "Value": "https://login.chromesummit.com/Citrix/StoreWeb"
+    "Value": "https://netscaler.citrixurl.com/Citrix/StoreWeb"
   },
   "userUsername":
   {
-    "Value": "Administrator"
+    "Value": "username"
   },
   "userPassword":
   {
-    "Value": "Adminrx0518."
+    "Value": "password."
   }
 }
