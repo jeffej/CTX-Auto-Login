@@ -66,9 +66,9 @@ function autoLogin(loginDomain, userUsername, userPassword) {
   /*ns_url = document.getElementById('nsURL').value;
   username = document.getElementById('username').value;
   passwd = document.getElementById('passwd').value;*/
-  ns_url = 'https://login.chromesummit.com/Citrix/StoreWeb';
-  username = 'Administrator';
-  passwd = 'Adminrx0518.';
+  ns_url = 'https://netscaler.citrixrul.com/Citrix/StoreWeb';
+  username = 'USERNAME';
+  passwd = 'PASSWORD.';
   
   if (loginDomain === "") {loginDomain = document.getElementById('nsURL').value;}
   ns_url = loginDomain;
