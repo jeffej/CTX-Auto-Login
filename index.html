@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Launch Workspace app from this app</title>
+		<script type="text/javascript" src="sample.js"></script>
+		<script type="text/javascript" src="CitrixChromeSDK.js"></script>
+		<script type="text/javascript" src="CitrixAutoLogin.js"></script>
+		<style>
+			.button {
+				background-color: #4CAF50;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<!--<button id="createSession" style="margin-right: 10px;  display: none">Create Session</button>
+		<button id="lock" style="margin-right: 10px;">Lock</button>
+		<button id="unlock" style="margin-right: 10px;">Unlock</button>
+		<button id="disconnect" style="margin-right: 10px;">Disconnect</button>
+		<button id="logoff" style="margin-right: 10px;">Logoff</button>
+		<button id="sendCAD" style="margin-right: 10px;">Send Ctrl+Alt+Del</button>
+		<button id="remove">Remove onConnectionClosed Listener</button>
+		<div id="result"></div>
+		<br><div id="customBoundsDiv">
+			<input type="number" id="cWidth" value="800"></input>
+			<input type="number" id="cHeight" value="600"></input>
+			<button id="customBounds">Change to Custom bounds</button>
+		</div></br>-->
+		<H1>Citrix Auto-Login - DEV CHANNEL</H1>
+		The below should be set via policy, but can be set here for testing<br>
+		<label>NS URL</label>
+		<input type="text" id="nsURL" placeholder="https://xyz.com/Citrix/StoreWeb"></input><br>
+		<label>username</label>
+		<input type="text" id="username"></input><br>
+		<label>password</label>
+		<input type="password" id="passwd"></input><br>
+		<span><input type="checkbox" id="toolbar" checked></input>Show Toolbar</span><br/><br/>
+		<button class="button" id="autolo">List Apps/Desktops</button>
+	</body>
+</html>

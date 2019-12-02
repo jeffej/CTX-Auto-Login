@@ -1,0 +1,10 @@
+{
+	"settings": {
+		"Value": {
+			"settings_version": "1.0",
+			"store_settings": {
+				"externalApps": ["third_party_app_id","third_party_app_id1"] 
+			}
+		}
+	}
+}

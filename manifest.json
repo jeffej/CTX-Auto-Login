@@ -1,0 +1,23 @@
+{
+  "name": "Auto-Login - DEV CHANNEL",
+  "version" : "4.6.3.4047",
+  "icons": {
+           "48": "app-icon.png" },
+  "permissions" : [
+    "appview",
+    "http://*/*",
+    "https://*/*",
+    "webview"
+  ],
+  "storage":
+  {
+    "managed_schema": "schema.json"
+  },
+  "app": {
+    "background": {
+      "scripts": [
+		"background.js"
+      ]
+    }
+  }
+}

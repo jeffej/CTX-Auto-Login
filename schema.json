@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties":
+  {
+    "nsURL":
+    {
+      "type": "string"
+    },
+    "userUsername":
+    {
+      "type": "string"
+    },
+    "userPassword":
+    {
+      "type": "string",
+      "sensitiveValue": true
+    }
+	}
+}
